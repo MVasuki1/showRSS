@@ -1,0 +1,6 @@
+git checkout --orphan new-main main
+git commit -m "$(date)"
+
+# Overwrite the old main branch reference with the new one
+git branch -M new-main main
+git push --force --set-upstream origin main

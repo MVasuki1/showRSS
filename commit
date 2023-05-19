@@ -1,0 +1,2 @@
+#!/bin/bash
+git diff --quiet && git diff --staged --quiet || git add . && git commit -am "$(date)" && git push

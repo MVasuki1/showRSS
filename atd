@@ -1,0 +1,2 @@
+#!/bin/bash
+yq -r '.[]| "\(.name): \(.schedule)"' shows.yml | grep ":.*$(date +%u)"

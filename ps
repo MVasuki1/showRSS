@@ -1,0 +1,5 @@
+#!/bin/bash
+#show_id="$(paste -d':' <(yq -rS 'keys|.[]' shows.yml) <(yq -rS '.[].name' shows.yml) | fzf -m --reverse | awk -F':' '{printf $1","}')"
+
+show_id="$(yq -r 'keys[] as $k | "\($k): \(.[$k] | .name)"' shows.yml | sort -t',' -k1n| fzf -m --reverse | awk -F':' '{printf $1","}')"
+[[ ! -z "${show_id}" ]]  && ./parser.py "${show_id}"
