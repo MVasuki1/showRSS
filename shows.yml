@@ -199,12 +199,6 @@
   name: Platonic
   schedule: 34
   search: Platonic+S01+1080p+ELiTE&lang=0&nox=2&sort=name&order=desc
-46:
-  episodes: 5
-  index: tgx
-  name: PrehistoricPlanet
-  schedule: 12345
-  search: Prehistoric+Planet+S02+1080p&lang=0&nox=2&sort=name&order=desc
 47:
   episodes: 8
   index: tgx
