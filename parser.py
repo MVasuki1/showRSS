@@ -15,6 +15,23 @@ from snowfl_parser import Snowfl
 import urllib.parse
 requests.adapters.DEFAULT_RETRIES = 5
 logging.basicConfig(level=logging.DEBUG)
+nyaa_session = requests.Session()
+tgx_session = requests.Session()
+nyaa_headers = headers = {
+    'authority': 'nyaa.ink',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+    'referer': 'https://nyaa.ink/?f=0&c=0_0&q=skip+and+loafer',
+    'sec-ch-ua': '"Chromium";v="113", "Not-A.Brand";v="24"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Linux"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (X11; CrOS aarch64 13597.84.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.95 Safari/537.36',
+}
 
 def snowfl_parser(search_term, uniq_regex=None):
     search_term = urllib.parse.quote_plus(search_term)
@@ -52,8 +69,8 @@ def snowfl_parser(search_term, uniq_regex=None):
     return sorted(episodes_conf, key=lambda x: x['title'],reverse=True)[:36]
 
 def nyaasi_parser(search_term, uniq_regex=None):
-    BASE_URL="https://nyaa.iss.ink/?f=0&c=0_0&q="
-    r = requests.get(f"{BASE_URL}{search_term}", timeout=20)
+    BASE_URL="https://nyaa.ink/?f=0&c=0_0&q="
+    r = nyaa_session.get(f"{BASE_URL}{search_term}", headers=nyaa_headers, timeout=120)
     logging.info(r.status_code)
     if r.status_code != 200:
         return []
@@ -97,7 +114,7 @@ def nyaasi_parser(search_term, uniq_regex=None):
 
 def tgx_parser(search_term, uniq_regex, *args, **kwargs):
     BASE_URL="https://tgx.rs/torrents.php?search="
-    r = requests.get(f"{BASE_URL}{search_term}")
+    r = tgx_session.get(f"{BASE_URL}{search_term}")
     r_content = r.content.decode('ISO-8859-1')
     logging.info(len(r_content))
     handle = StringIO(r_content)
@@ -168,9 +185,9 @@ if __name__ == '__main__':
 
         # Only scrape for shows that are airing today/yesterday
         # if parser is running for all episodes len > 3
-        if len(show_id_list) > 3:
-            if today not in str(show_conf['schedule']):
-                continue
+        #if len(show_id_list) > 3:
+        #    if today not in str(show_conf['schedule']):
+        #        continue
 
         logging.info(f'Fetching results for {show_conf["name"]} schedule {show_conf["schedule"]}')
 
