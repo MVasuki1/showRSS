@@ -18,10 +18,8 @@ logging.basicConfig(level=logging.DEBUG)
 nyaa_session = requests.Session()
 tgx_session = requests.Session()
 nyaa_headers = headers = {
-    'authority': 'nyaa.ink',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-    'referer': 'https://nyaa.ink/?f=0&c=0_0&q=skip+and+loafer',
     'sec-ch-ua': '"Chromium";v="113", "Not-A.Brand";v="24"',
     'sec-ch-ua-mobile': '?0',
     'sec-ch-ua-platform': '"Linux"',
@@ -69,7 +67,7 @@ def snowfl_parser(search_term, uniq_regex=None):
     return sorted(episodes_conf, key=lambda x: x['title'],reverse=True)[:36]
 
 def nyaasi_parser(search_term, uniq_regex=None):
-    BASE_URL="https://nyaa.ink/?f=0&c=0_0&q="
+    BASE_URL="https://nyaa.iss.ink/?f=0&c=0_0&q="
     r = nyaa_session.get(f"{BASE_URL}{search_term}", headers=nyaa_headers, timeout=120)
     logging.info(r.status_code)
     if r.status_code != 200:
@@ -185,9 +183,9 @@ if __name__ == '__main__':
 
         # Only scrape for shows that are airing today/yesterday
         # if parser is running for all episodes len > 3
-        #if len(show_id_list) > 3:
-        #    if today not in str(show_conf['schedule']):
-        #        continue
+        if len(show_id_list) > 3:
+            if today not in str(show_conf['schedule']):
+                continue
 
         logging.info(f'Fetching results for {show_conf["name"]} schedule {show_conf["schedule"]}')
 
@@ -213,6 +211,7 @@ if __name__ == '__main__':
             continue
 
         new_ep = get_a_minus_b(episodes_conf, old_episodes_conf)
+        print(new_ep)
         new_ep_len = len(new_ep)
         #new_ep_len = len(episodes_conf) - len(old_episodes_conf)
         logging.info(f'New Episodes count {new_ep_len}')
