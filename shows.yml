@@ -96,12 +96,12 @@
   name: Somebody Somewhere S02
   schedule: 71
   search: Somebody+Somewhere+S02+1080p+MeGusta&lang=0&nox=2&sort=name&order=desc
-28:
-  episodes: 8
-  index: tgx
-  name: Rabbit Hole
-  schedule: 71
-  search: Rabbit+Hole+MeGusta&lang=0&nox=2&sort=name&order=desc
+#28:
+#  episodes: 8
+#  index: tgx
+#  name: Rabbit Hole
+#  schedule: 71
+#  search: Rabbit+Hole+MeGusta&lang=0&nox=2&sort=name&order=desc
 29:
   episodes: 12
   index: tgx
