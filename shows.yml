@@ -72,12 +72,6 @@
   name: Silo S01
   schedule: 56
   search: Silo+S01+1080p+ELiTe&sort=name&order=desc
-27:
-  episodes: 7
-  index: tgx
-  name: Somebody Somewhere S02
-  schedule: 71
-  search: Somebody+Somewhere+S02+1080p+MeGusta&lang=0&nox=2&sort=name&order=desc
 30:
   episodes: 80
   index: nyaasi
