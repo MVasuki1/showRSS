@@ -66,12 +66,6 @@
   schedule: 71
   search: Judas+One+Piece+1080p+HEVC
   uniq_regex: -\s1\d\d\d
-25:
-  episodes: 8
-  index: tgx
-  name: Blindspotting S02
-  schedule: 67
-  search: Blindspotting+S02+1080p+MeGusta&lang=0&nox=2&sort=name&order=desc
 26:
   episodes: 10
   index: tgx
