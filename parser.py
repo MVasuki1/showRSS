@@ -111,7 +111,7 @@ def nyaasi_parser(search_term, uniq_regex=None):
     return sorted(episodes_conf, key=lambda x: x['title'],reverse=True)[:36]
 
 def tgx_parser(search_term, uniq_regex, *args, **kwargs):
-    BASE_URL="https://tgx.rs/torrents.php?search="
+    BASE_URL="https://tgx.sb/torrents.php?search="
     r = tgx_session.get(f"{BASE_URL}{search_term}")
     r_content = r.content.decode('ISO-8859-1')
     logging.info(len(r_content))
