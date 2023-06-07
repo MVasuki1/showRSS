@@ -127,12 +127,6 @@
   schedule: 67
   search: ASW+Mashle+1080p
   uniq_regex: -\s\d\d\s
-41:
-  episodes: 3
-  index: tgx
-  name: North Shore
-  schedule: 56
-  search: North+Shore+1080p&lang=0&nox=2&sort=name&sort=seeders&order=desc
 42:
   episodes: 8
   index: tgx
