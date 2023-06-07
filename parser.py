@@ -125,7 +125,7 @@ def tgx_parser(search_term, uniq_regex, *args, **kwargs):
     for episode_div in episodes_div_list:
         erow = episode_div.xpath('div')
         name = erow[3].xpath('div/a[1]')[0].text_content()
-        torrent_link = list(erow[4].xpath('a')[0].iterlinks())[0][2]
+        torrent_link = list(erow[4].xpath('a')[1].iterlinks())[0][2]
         size = erow[7].text_content()
         add_time = erow[11].text_content()
         if uniq_regex is None:
