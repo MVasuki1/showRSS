@@ -206,7 +206,7 @@ if __name__ == '__main__':
             episodes_conf = index_parser_dict[show_conf['index']](search_term=show_conf['search'], uniq_regex=show_conf.get('uniq_regex'))
             if len(episodes_conf) != 0:
                 break
-        
+
         if len(episodes_conf) == 0:
             continue
 
