@@ -187,3 +187,9 @@
   name: DeadlochS01
   schedule: 56
   search: deadloch+S01+1080p+ELite&sort=name&order=desc
+56:
+  episodes: 8
+  index: tgx
+  name: LittleBirdS01
+  schedule: 56
+  search: Little+Bird+S01+1080p+MeGusta&sort=name&order=desc
