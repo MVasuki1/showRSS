@@ -4,12 +4,12 @@
   name: Tengoku Daimakyo
   schedule: 67
   search: EMBER+Tengoku+1080p
-9:
-  episodes: 13
-  index: tgx
-  name: Hells Paradies
-  schedule: 67
-  search: Hells+Paradise+1080p&lang=0&nox=2#results
+#9:
+#  episodes: 13
+#  index: tgx
+#  name: Hells Paradies
+#  schedule: 67
+#  search: Hells+Paradise+1080p&sort=name&order=desc
 10:
   episodes: 12
   index: nyaasi
@@ -40,7 +40,7 @@
   index: tgx
   name: Awkwafina is Nora from Queens S03
   schedule: 34
-  search: Awkwafina+S03+720p+h264+BAE&lang=0&nox=2&sort=name&order=desc
+  search: Awkwafina+S03+720p+h264+BAE&sort=name&order=desc
 23:
   episodes: 10
   index: tgx
@@ -150,19 +150,19 @@
   index: tgx
   name: The Family Stallone
   schedule: 34
-  search: The+Family+Stallone+S01+1080p+MeGusta&lang=0&nox=2&sort=name&order=desc
+  search: The+Family+Stallone+S01+1080p+MeGusta&sort=name&order=desc
 48:
   episodes: 10
   index: tgx
   name: Clone High
   schedule: 45
-  search: Clone+High+S01+1080p+MeGusta&lang=0&nox=2&sort=name&order=desc
+  search: Clone+High+S01+1080p+MeGusta&sort=name&order=desc
 51:
   episodes: 6
   index: tgx
   name: IheIdolS01
   schedule: 1
-  search: The+Idol+S01+1080p+MeGusta&lang=0&nox=2&sort=name&order=desc
+  search: The+Idol+S01+1080p+MeGusta&sort=name&order=desc
 52:
   episodes: 13
   index: tgx
