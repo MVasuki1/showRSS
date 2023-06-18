@@ -110,6 +110,24 @@ def nyaasi_parser(search_term, uniq_regex=None):
         logging.info(ep_row)
     return sorted(episodes_conf, key=lambda x: x['title'],reverse=True)[:36]
 
+def njav_parser(*args, **kwargs):
+    first_page = kwargs["first_page"]
+    episodes_list = []
+    page_list = subprocess.check_output(f'curl "{first_page}"' + ''' | pup 'a[class="page-link"] json{}' | jq -r '.[]|.href' | sort -V''', shell=True).decode().strip().split('\n')
+    print(page_list)
+    page_list[0] = first_page
+    page_list = page_list[0:int(kwargs["page_limit"])]
+    print(page_list)
+    for page in page_list:
+        page = page.replace('amp;', '')
+        episodes = subprocess.check_output(f'curl "{page}"' + " | pup 'div[class=box-item] div a json{}' | jq -r '.[]|.href'", shell=True).decode().strip().split('\n')
+        print(episodes)
+        episodes_list.extend(list(dict.fromkeys(episodes)))
+    with open('/tmp/test.txt', 'w') as f:
+        f.write(json.dumps(episodes_list))
+    return [{"title": i.split('/')[-1], "link": f"https://njav.tv/en/{i}"} for i in episodes_list]
+
+
 def tgx_parser(search_term, uniq_regex, *args, **kwargs):
     BASE_URL="https://tgx.sb/torrents.php?search="
     r = tgx_session.get(f"{BASE_URL}{search_term}")
@@ -176,6 +194,7 @@ if __name__ == '__main__':
         'tgx': tgx_parser,
         "nyaasi": nyaasi_parser,
         "snowfl": snowfl_parser,
+        "njav": njav_parser,
     }
     
     for show_id in show_id_list:
@@ -203,7 +222,7 @@ if __name__ == '__main__':
             # Parser for torrent index should be implemented
             continue
         for i in range(1,5):
-            episodes_conf = index_parser_dict[show_conf['index']](search_term=show_conf['search'], uniq_regex=show_conf.get('uniq_regex'))
+            episodes_conf = index_parser_dict[show_conf['index']](search_term=show_conf.get('search'), uniq_regex=show_conf.get('uniq_regex'), **show_conf)
             if len(episodes_conf) != 0:
                 break
 
