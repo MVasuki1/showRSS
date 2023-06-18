@@ -66,7 +66,7 @@ def snowfl_parser(search_term, uniq_regex=None):
     # Only fetch last 36 episodes for any show
     return sorted(episodes_conf, key=lambda x: x['title'],reverse=True)[:36]
 
-def nyaasi_parser(search_term, uniq_regex=None):
+def nyaasi_parser(search, uniq_regex=None, *args, **kwargs):
     BASE_URL="https://nyaa.iss.ink/?f=0&c=0_0&q="
     r = nyaa_session.get(f"{BASE_URL}{search_term}", headers=nyaa_headers, timeout=120)
     logging.info(r.status_code)
@@ -128,9 +128,9 @@ def njav_parser(*args, **kwargs):
     return [{"title": i.split('/')[-1], "link": f"https://njav.tv/en/{i}"} for i in episodes_list]
 
 
-def tgx_parser(search_term, uniq_regex, *args, **kwargs):
+def tgx_parser(search, uniq_regex, *args, **kwargs):
     BASE_URL="https://tgx.sb/torrents.php?search="
-    r = tgx_session.get(f"{BASE_URL}{search_term}")
+    r = tgx_session.get(f"{BASE_URL}{search}")
     r_content = r.content.decode('ISO-8859-1')
     logging.info(len(r_content))
     handle = StringIO(r_content)
