@@ -31,8 +31,8 @@ nyaa_headers = headers = {
     'user-agent': 'Mozilla/5.0 (X11; CrOS aarch64 13597.84.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.95 Safari/537.36',
 }
 
-def snowfl_parser(search_term, uniq_regex=None):
-    search_term = urllib.parse.quote_plus(search_term)
+def snowfl_parser(search, uniq_regex=None, *args, **kwargs):
+    search_term = urllib.parse.quote_plus(search)
     snowfl = Snowfl()
     resp = snowfl.search(search_term)
     resp = sorted(resp, key=lambda x: x['seeds'], reverse=True)
@@ -68,7 +68,7 @@ def snowfl_parser(search_term, uniq_regex=None):
 
 def nyaasi_parser(search, uniq_regex=None, *args, **kwargs):
     BASE_URL="https://nyaa.iss.ink/?f=0&c=0_0&q="
-    r = nyaa_session.get(f"{BASE_URL}{search_term}", headers=nyaa_headers, timeout=120)
+    r = nyaa_session.get(f"{BASE_URL}{search}", headers=nyaa_headers, timeout=120)
     logging.info(r.status_code)
     if r.status_code != 200:
         return []
@@ -128,7 +128,7 @@ def njav_parser(*args, **kwargs):
     return [{"title": i.split('/')[-1], "link": f"https://njav.tv/en/{i}"} for i in episodes_list]
 
 
-def tgx_parser(search, uniq_regex, *args, **kwargs):
+def tgx_parser(search, uniq_regex=None, *args, **kwargs):
     BASE_URL="https://tgx.sb/torrents.php?search="
     r = tgx_session.get(f"{BASE_URL}{search}")
     r_content = r.content.decode('ISO-8859-1')
@@ -222,7 +222,7 @@ if __name__ == '__main__':
             # Parser for torrent index should be implemented
             continue
         for i in range(1,5):
-            episodes_conf = index_parser_dict[show_conf['index']](search_term=show_conf.get('search'), uniq_regex=show_conf.get('uniq_regex'), **show_conf)
+            episodes_conf = index_parser_dict[show_conf['index']](**show_conf)
             if len(episodes_conf) != 0:
                 break
 
