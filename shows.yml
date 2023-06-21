@@ -115,12 +115,6 @@
   schedule: 67
   search: ASW+Mashle+1080p
   uniq_regex: -\s\d\d\s
-42:
-  episodes: 8
-  index: tgx
-  name: HighDesert
-  schedule: 34
-  search: High+Desert+1080p+MeGusta&lang=0&nox=2&sort=name&order=desc
 44:
   episodes: 8
   index: tgx
