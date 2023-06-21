@@ -102,12 +102,6 @@
   schedule: 71
   search: ASW+My+Home+Hero+1080p+HEVC
   uniq_regex: -\s\d\d\s
-37:
-  episodes: 8
-  index: tgx
-  name: Class of 09
-  schedule: 34
-  search: Class+of+09+1080p+MeGusta&lang=0&nox=2&sort=name&order=desc
 40:
   episodes: 12
   index: nyaasi
