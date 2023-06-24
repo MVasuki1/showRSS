@@ -95,13 +95,6 @@
   schedule: 71
   search: ASW+My+Home+Hero+1080p+HEVC
   uniq_regex: -\s\d\d\s
-40:
-  episodes: 12
-  index: nyaasi
-  name: Mashle
-  schedule: 67
-  search: ASW+Mashle+1080p
-  uniq_regex: -\s\d\d\s
 44:
   episodes: 8
   index: tgx
