@@ -88,13 +88,6 @@
   schedule: 45
   search: ASW+Kaminaki+Sekai+no+Kamisama+Katsudou+1080p+HEVC
   uniq_regex: -\s\d\d\s
-34:
-  episodes: 12
-  index: nyaasi
-  name: OtakuElf
-  schedule: 56
-  search: ASW+Edomae+Elf+1080p+HEVC
-  uniq_regex: -\s\d\d\s
 35:
   episodes: 12
   index: nyaasi
