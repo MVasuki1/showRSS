@@ -171,8 +171,15 @@
   episodes: -1
   first_page: https://njav.tv/en/actresses/455e27fa94e1d716?page=1&sort=release_date
   index: njav
-  name: Meguri
+  name: actress_meguri
   page_limit: 8
+  schedule: 0
+63:
+  episodes: -1
+  first_page: https://njav.tv/en/series/h4?sort=release_date
+  index: njav
+  name: series_h4
+  page_limit: 12
   schedule: 0
 62:
   episodes: 12

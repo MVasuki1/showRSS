@@ -113,14 +113,14 @@ def nyaasi_parser(search, uniq_regex=None, *args, **kwargs):
 def njav_parser(*args, **kwargs):
     first_page = kwargs["first_page"]
     episodes_list = []
-    page_list = subprocess.check_output(f'curl "{first_page}"' + ''' | pup 'a[class="page-link"] json{}' | jq -r '.[]|.href' | sort -V''', shell=True).decode().strip().split('\n')
+    page_list = subprocess.check_output(f'curl "{first_page}"' + ''' | pup 'a[class="page-link"] json{}' | jq -r '.[]|.href' | sort -V''', shell=True, executable='/bin/bash').decode().strip().split('\n')
     print(page_list)
     page_list[0] = first_page
     page_list = page_list[0:int(kwargs["page_limit"])]
     print(page_list)
     for page in page_list:
         page = page.replace('amp;', '')
-        episodes = subprocess.check_output(f'curl "{page}"' + " | pup 'div[class=box-item] div a json{}' | jq -r '.[]|.href'", shell=True).decode().strip().split('\n')
+        episodes = subprocess.check_output(f'curl "{page}"' + " | pup 'div[class=box-item] div a json{}' | jq -r '.[]|.href'", shell=True, executable='/bin/bash').decode().strip().split('\n')
         print(episodes)
         episodes_list.extend(list(dict.fromkeys(episodes)))
     with open('/tmp/test.txt', 'w') as f:
