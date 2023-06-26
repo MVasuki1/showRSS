@@ -37,13 +37,6 @@
   schedule: 0
   search: Judas+Bleach+1080p
   uniq_regex: \d\d\d-\d\d\d
-31:
-  episodes: 12
-  index: nyaasi
-  name: My Clueless First Friend
-  schedule: 71
-  search: ASW+Jijou+wo+Shiranai+1080p+HEVC
-  uniq_regex: -\s\d\d\s
 32:
   episodes: 13
   index: nyaasi
