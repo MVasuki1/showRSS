@@ -23,12 +23,6 @@
   schedule: 34
   search: ASW+Oshi+No+Ko+1080+HEVC
   uniq_regex: \d\d\s
-15:
-  episodes: 12
-  index: nyaasi
-  name: Skip to Loafer
-  schedule: 23
-  search: EMBER%2BSkip%2Band%2BLoafer%2B1080p%2BHEVC
 17:
   episodes: 6
   index: tgx
@@ -81,13 +75,6 @@
   name: KaminakiSekai
   schedule: 45
   search: ASW+Kaminaki+Sekai+no+Kamisama+Katsudou+1080p+HEVC
-  uniq_regex: -\s\d\d\s
-35:
-  episodes: 12
-  index: nyaasi
-  name: My Home Hero
-  schedule: 71
-  search: ASW+My+Home+Hero+1080p+HEVC
   uniq_regex: -\s\d\d\s
 44:
   episodes: 8
