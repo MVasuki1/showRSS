@@ -149,3 +149,9 @@
   name: HijackS01
   schedule: 34
   search: Hijack+S01+1080p+MeGusta&sort=name&order=desc
+65:
+  episodes: 12
+  index: tgx
+  name: HijackS01_H264
+  schedule: 34
+  search: Hijack+S01+1080p+H264&sort=name&order=desc
