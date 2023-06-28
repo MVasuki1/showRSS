@@ -155,3 +155,9 @@
   name: HijackS01_H264
   schedule: 34
   search: Hijack+S01+1080p+H264&sort=name&order=desc
+66:
+  episodes: 10
+  index: tgx
+  name: Platonic_H264
+  schedule: 34
+  search: Platonic+S01+1080p+H264+tgx&lang=0&nox=2&sort=name&order=desc
