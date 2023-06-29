@@ -1,16 +1,3 @@
-14:
-  episodes: 11
-  index: nyaasi
-  name: Oshi no Ko
-  schedule: 34
-  search: ASW+Oshi+No+Ko+1080+HEVC
-  uniq_regex: \d\d\s
-17:
-  episodes: 6
-  index: tgx
-  name: Awkwafina is Nora from Queens S03
-  schedule: 34
-  search: Awkwafina+S03+720p+h264+BAE&sort=name&order=desc
 23:
   episodes: 10
   index: tgx
