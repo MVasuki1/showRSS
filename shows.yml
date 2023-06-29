@@ -148,3 +148,9 @@
   name: The Clearing H264
   schedule: 34
   search: The+Clearing+1080p+H264&sort=name&order=desc
+68:
+  episodes: 8
+  index: tgx
+  name: IASIPS16H264
+  schedule: 45
+  search: It%27s+Always+Sunny+in+Philadelphia+S16+1080p+264&sort=name&order=desc
