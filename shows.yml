@@ -173,3 +173,10 @@
   schedule: 71
   search: ASW+Mushoku+Tensei+1080p
   uniq_regex: S2\ -\ \d\d
+78:
+  episodes: 12
+  index: nyaasi
+  name: Horimiya Piece
+  schedule: 67
+  search: ASW+horimiya+Piece+1080p
+  uniq_regex: \d\d
