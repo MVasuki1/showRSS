@@ -166,3 +166,10 @@
   name: DeadlochS01H264
   schedule: 56
   search: deadloch+S01+1080p+264&sort=name&order=desc
+77:
+  episodes: 12
+  index: nyaasi
+  name: Mushoku Tensei S02
+  schedule: 71
+  search: ASW+Mushoku+Tensei+1080p
+  uniq_regex: S2\ -\ \d\d
