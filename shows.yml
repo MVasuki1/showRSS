@@ -180,3 +180,9 @@
   schedule: 67
   search: ASW+horimiya+Piece+1080p
   uniq_regex: \d\d
+79:
+  episodes: 16
+  index: tgx
+  name: Righteous Gemstones S03
+  schedule: 34
+  search: The+Righteous+Gemstones+S03+1080p+MeGusta&sort=name&order=desc
