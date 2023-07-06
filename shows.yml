@@ -231,3 +231,9 @@
   schedule: 67
   search: ASW+BanG+Dream
   uniq_regex: BanG Dream! It's MyGO!!!!!\s-\s\d\d
+88:
+  episodes: 16
+  index: tgx
+  name: Warrior S03
+  schedule: 45
+  search: Warrior+S03+1080p+MeGusta&sort=name&order=desc
