@@ -36,12 +36,6 @@
   name: IASIPS16
   schedule: 45
   search: It%27s+Always+Sunny+in+Philadelphia+S16+1080p+MeGusta&sort=name&order=desc
-55:
-  episodes: 8
-  index: tgx
-  name: DeadlochS01
-  schedule: 56
-  search: deadloch+S01+1080p+ELite&sort=name&order=desc
 56:
   episodes: 8
   index: tgx
@@ -116,12 +110,6 @@
   name: Nancy Drew S04 H264
   schedule: 34
   search: Nancy+Drew+S04+1080p+264&sort=name&order=desc
-70:
-  episodes: 8
-  index: tgx
-  name: DeadlochS01H264
-  schedule: 56
-  search: deadloch+S01+1080p+264&sort=name&order=desc
 77:
   episodes: 12
   index: nyaasi
