@@ -184,7 +184,7 @@
   episodes: 24
   index: nyaasi
   name: Masamune Kun No revenge
-  schedule: 23
+  schedule: 123
   search: Judas+Masamune-kun+S02
 82:
   episodes: 24
@@ -196,7 +196,7 @@
   episodes: 24
   index: nyaasi
   name: The Dreaming Boy is a Realist
-  schedule: 23
+  schedule: 123
   search: EMBER+Yumemiru+Danshi+wa+Genjitsushugisha+
 83:
   episodes: 24
@@ -204,3 +204,10 @@
   name: My Tiny Senpai
   schedule: 71
   search: EMBER+Uchi+no+Kaisha+no+Chiisai+
+84:
+  episodes: 24
+  index: nyaasi
+  name: Lv1 Demon Lord
+  schedule: 12
+  search: ASW+Lv1+Maou+to+One+Room
+  uniq_regex: -\s\d\d
