@@ -224,3 +224,10 @@
   name: Am I Actually the Strongest
   schedule: 71
   search: EMBER+Jitsu+wa+Ore
+87:
+  episodes: 24
+  index: nyaasi
+  name: BanG Dream
+  schedule: 67
+  search: ASW+BanG+Dream
+  uniq_regex: BanG Dream! It's MyGO!!!!!\s-\s\d\d
