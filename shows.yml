@@ -1,9 +1,3 @@
-23:
-  episodes: 10
-  index: tgx
-  name: The Other Two S03
-  schedule: 45
-  search: The+Other+Two+S03+WEB+h264+720p&sort=name&order=desc
 24:
   episodes: 2048
   index: nyaasi
@@ -11,12 +5,6 @@
   schedule: 71
   search: Judas+One+Piece+1080p+HEVC
   uniq_regex: -\s1\d\d\d
-26:
-  episodes: 10
-  index: tgx
-  name: Silo S01
-  schedule: 56
-  search: Silo+S01+1080p+ELiTe&sort=name&order=desc
 30:
   episodes: 80
   index: nyaasi
@@ -24,32 +12,12 @@
   schedule: 0
   search: Judas+Bleach+1080p
   uniq_regex: \d\d\d-\d\d\d
-32:
-  episodes: 13
-  index: nyaasi
-  name: Insomniacs After School
-  schedule: 123
-  search: ASW+Kimi+wa+Houkago+Insomnia+1080p+HEVC
-  uniq_regex: -\s\d\d\s
-33:
-  episodes: 12
-  index: nyaasi
-  name: KaminakiSekai
-  schedule: 45
-  search: ASW+Kaminaki+Sekai+no+Kamisama+Katsudou+1080p+HEVC
-  uniq_regex: -\s\d\d\s
 45:
   episodes: 10
   index: tgx
   name: Platonic
   schedule: 34
   search: Platonic+S01+1080p+ELiTE&lang=0&nox=2&sort=name&order=desc
-51:
-  episodes: 6
-  index: tgx
-  name: IheIdolS01
-  schedule: 1
-  search: The+Idol+S01+1080p+MeGusta&sort=name&order=desc
 52:
   episodes: 13
   index: tgx
