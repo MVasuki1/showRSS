@@ -200,3 +200,17 @@
   schedule: 56
   search: EMBER+jujutsu+kaisen+1080p
   uniq_regex: S02E\d\d
+91:
+  episodes: 12
+  index: nyaasi
+  name: Tenpuru
+  schedule: 71
+  search: EMBER+tenpuru
+  uniq_regex: S01E\d\d
+92:
+  episodes: 12
+  index: nyaasi
+  name: The Gene of AI
+  schedule: 71
+  search: EMBER+the+gene+of+AI
+  uniq_regex: S01E\d\d
