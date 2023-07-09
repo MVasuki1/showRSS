@@ -193,3 +193,10 @@
   name: The Wonder Years S02
   schedule: 45
   search: the+wonder+years+S02+ELiTE&sort=name&order=desc
+90:
+  episodes: 12
+  index: nyaasi
+  name: Jujutsu Kaisen S02
+  schedule: 56
+  search: EMBER+jujutsu+kaisen+1080p
+  uniq_regex: S02E\d\d
