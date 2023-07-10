@@ -220,3 +220,15 @@
   name: Domina S02
   schedule: 71
   search: Domina+S02+1080p&sort=name&order=desc
+94:
+  episodes: 18
+  index: tgx
+  name: Secret Invasion
+  schedule: 1
+  search: secret+invasion+S01+elite&sort=name&order=desc
+95:
+  episodes: 18
+  index: tgx
+  name: Secret Invasion H264
+  schedule: 1
+  search: secret+invasion+S01+1080p+H264&sort=name&order=desc
