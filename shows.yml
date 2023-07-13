@@ -232,3 +232,15 @@
   name: Secret Invasion H264
   schedule: 1
   search: secret+invasion+S01+1080p+H264&sort=name&order=desc
+96:
+  episodes: 12
+  index: tgx
+  name: Full Circle 2023 H264
+  schedule: 1
+  search: full+circle+S01+1080p+H264&sort=name&order=desc
+97:
+  episodes: 12
+  index: tgx
+  name: Full Circle 2023 HEVC
+  schedule: 1
+  search: full+circle+S01+1080p+elite&sort=name&order=desc
