@@ -244,3 +244,10 @@
   name: Full Circle 2023 HEVC
   schedule: 1
   search: full+circle+S01+1080p+elite&sort=name&order=desc
+98:
+  episodes: 12
+  index: nyaasi
+  name: Devil Part Timer
+  schedule: 67
+  search: ASW+hataraku
+  uniq_regex: S2\ -\ \d\d
