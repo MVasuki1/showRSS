@@ -305,11 +305,16 @@
   index: tgx
   name: Secrets of Playboy
   schedule: 56
-  search: secrets+of+playboy+S01+Ntb
-107:
+  search: secrets+of+playboy+S01+Ntb&sort=name&order=desc
+108:
   episodes: 12
   index: tgx
   name: Craig of the creek S05
   schedule: 56
-  search: craig+of+the+creek+S05+1080p+AMZN
-
+  search: craig+of+the+creek+S05+1080p+AMZN&sort=name&order=desc
+109:
+  episodes: 12
+  index: tgx
+  name: Crime beat S04
+  schedule: 56
+  search: Crime+Beat+S04+Ntb&sort=name&order=desc&lang=0&nox=2#results

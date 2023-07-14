@@ -129,10 +129,13 @@ def njav_parser(*args, **kwargs):
 
 
 def tgx_parser(search, uniq_regex=None, *args, **kwargs):
-    BASE_URL="https://tgx.sb/torrents.php?search="
-    r = tgx_session.get(f"{BASE_URL}{search}")
-    r_content = r.content.decode('ISO-8859-1')
-    logging.info(len(r_content))
+    for i in range(0,5):
+        BASE_URL="https://tgx.sb/torrents.php?search="
+        r = tgx_session.get(f"{BASE_URL}{search}")
+        r_content = r.content.decode('ISO-8859-1')
+        logging.info(len(r_content))
+        if len(r_content) != 0:
+            break
     handle = StringIO(r_content)
     root = lxml.html.parse(handle)
    
