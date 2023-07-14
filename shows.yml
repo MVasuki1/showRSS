@@ -294,3 +294,16 @@
   name: Tom Clancy Jack Ryan S04 H264
   schedule: 56
   search: tom+clancy+jack+ryan+S04+1080p+NTb&sort=name&order=desc
+106:
+  episodes: 12
+  index: tgx
+  name: The Big D
+  schedule: 56
+  search: The+Big+D+S01+1080p+Ntb&sort=name&order=desc
+107:
+  episodes: 12
+  index: tgx
+  name: Secrets of Playboy
+  schedule: 56
+  search: secrets+of+playboy+S01+Ntb
+  uniq_regex: 1080p
