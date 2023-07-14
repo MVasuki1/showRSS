@@ -282,3 +282,15 @@
   name: Foundation H264
   schedule: 56
   search: Foundation+S02+1080p+h264&sort=name&order=desc
+104:
+  episodes: 12
+  index: tgx
+  name: Tom Clancy Jack Ryan S04
+  schedule: 56
+  search: tom+clancy+jack+ryan+S04+1080p+megusta&sort=name&order=desc
+105:
+  episodes: 12
+  index: tgx
+  name: Tom Clancy Jack Ryan S04 H264
+  schedule: 56
+  search: tom+clancy+jack+ryan+S04+1080p+NTb&sort=name&order=desc
