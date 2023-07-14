@@ -306,4 +306,10 @@
   name: Secrets of Playboy
   schedule: 56
   search: secrets+of+playboy+S01+Ntb
-  uniq_regex: 1080p
+107:
+  episodes: 12
+  index: tgx
+  name: Craig of the creek S05
+  schedule: 56
+  search: craig+of+the+creek+S05+1080p+AMZN
+
