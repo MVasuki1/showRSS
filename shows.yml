@@ -258,3 +258,9 @@
   schedule: 67
   search: ASW+rurouni
   uniq_regex: \d\d
+100:
+  episodes: 12
+  index: tgx
+  name: Nineteen to Twenty
+  schedule: 23
+  search: nineteen+to+twenty+1080p&sort=name&order=desc
