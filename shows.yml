@@ -270,3 +270,15 @@
   name: Summer I pretty S02
   schedule: 56
   search: summer+i+turned+pretty+S02+1080p+megusta&sort=name&order=desc
+102:
+  episodes: 12
+  index: tgx
+  name: Foundation HEVC
+  schedule: 56
+  search: Foundation+S02+1080p+megusta&sort=name&order=desc
+103:
+  episodes: 12
+  index: tgx
+  name: Foundation H264
+  schedule: 56
+  search: Foundation+S02+1080p+h264&sort=name&order=desc
