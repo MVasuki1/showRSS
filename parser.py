@@ -129,7 +129,7 @@ def njav_parser(*args, **kwargs):
 
 
 def tgx_parser(search, uniq_regex=None, *args, **kwargs):
-    for i in range(0,5):
+    for i in range(0,3):
         BASE_URL="https://tgx.sb/torrents.php?search="
         r = tgx_session.get(f"{BASE_URL}{search}")
         r_content = r.content.decode('ISO-8859-1')
