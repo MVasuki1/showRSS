@@ -31,6 +31,29 @@ nyaa_headers = headers = {
     'user-agent': 'Mozilla/5.0 (X11; CrOS aarch64 13597.84.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.95 Safari/537.36',
 }
 
+tgx_cookies = {
+    'PHPSESSID': 'rbt3rokgvc90uf64303tk39te8',
+    'fencekey': '7894867e6e3ee885edfaf94541e04b95',
+}
+
+tgx_headers = {
+    'authority': 'tgx.sb',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+    'cache-control': 'max-age=0',
+    # 'cookie': 'PHPSESSID=rbt3rokgvc90uf64303tk39te8; fencekey=7894867e6e3ee885edfaf94541e04b95',
+    'sec-ch-ua': '"Chromium";v="113", "Not-A.Brand";v="24"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Linux"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'none',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (X11; CrOS aarch64 13597.84.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.95 Safari/537.36',
+}
+
+
 def snowfl_parser(search, uniq_regex=None, *args, **kwargs):
     search_term = urllib.parse.quote_plus(search)
     snowfl = Snowfl()
@@ -131,7 +154,7 @@ def njav_parser(*args, **kwargs):
 def tgx_parser(search, uniq_regex=None, *args, **kwargs):
     for i in range(0,3):
         BASE_URL="https://tgx.sb/torrents.php?search="
-        r = tgx_session.get(f"{BASE_URL}{search}")
+        r = tgx_session.get(f"{BASE_URL}{search}", cookies=tgx_cookies, headers=tgx_headers)
         r_content = r.content.decode('ISO-8859-1')
         logging.info(len(r_content))
         if len(r_content) != 0:
