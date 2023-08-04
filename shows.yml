@@ -336,3 +336,10 @@
   name: The First Responders S02
   schedule: 567
   search: The+First+Responders+S02+thon
+114:
+  episodes: 12
+  index: nyaasi
+  name: Masterful Cat
+  schedule: 71
+  search: ASW+Dekiru+Neko
+  uniq_regex: \d\d
