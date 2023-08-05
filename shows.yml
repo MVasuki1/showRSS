@@ -1,3 +1,10 @@
+13:
+  episodes: 12
+  index: nyaasi
+  name: The Duke and his Maid S02
+  schedule: 67
+  search: EMBER+The+Duke+of+Death+S02
+  uniq_regex: S02E\d\d
 12:
   episodes: 12
   index: nyaasi
