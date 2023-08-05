@@ -1,3 +1,21 @@
+2:
+  episodes: 24
+  index: nyaasi
+  name: Rent a Girlfriend S02
+  schedule: 123
+  search: Rent+a+Girlfriend+S02
+81:
+  episodes: 24
+  index: nyaasi
+  name: Masamune Kun No revenge
+  schedule: 123
+  search: Judas+Masamune-kun+S02
+82:
+  episodes: 24
+  index: nyaasi
+  name: The Girl I Like Forgot her Glasses
+  schedule: 45
+  search: JUDAS+the+girl+i+like+forgot 
 80:
   episodes: 24
   index: nyaasi
@@ -46,18 +64,6 @@
   schedule: 0
   search: Judas+Bleach+1080p
   uniq_regex: \d\d\d-\d\d\d
-81:
-  episodes: 24
-  index: nyaasi
-  name: Masamune Kun No revenge
-  schedule: 123
-  search: Judas+Masamune-kun+S02
-82:
-  episodes: 24
-  index: nyaasi
-  name: The Girl I Like Forgot her Glasses
-  schedule: 45
-  search: JUDAS+the+girl+i+like+forgot 
 83:
   episodes: 24
   index: nyaasi
