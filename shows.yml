@@ -1,9 +1,21 @@
+11:
+  episodes: 24
+  index: nyaasi
+  name: My Tiny Senpai
+  schedule: 71
+  search: EMBER+Uchi+no+Kaisha+no+Chiisai+
+10:
+  episodes: 24
+  index: nyaasi
+  name: The Dreaming Boy is a Realist
+  schedule: 123
+  search: EMBER+Yumemiru+Danshi+wa+Genjitsushugisha+
 9:
   episodes: 24
   index: nyaasi
   name: Reborn as Wending Machine
   schedule: 71
-  search: Judas+Reborn+as
+  search: Judas+Jidouhanbaiki
 8:
   episodes: 24
   index: nyaasi
@@ -107,18 +119,6 @@
   schedule: 0
   search: Judas+Bleach+1080p
   uniq_regex: \d\d\d-\d\d\d
-83:
-  episodes: 24
-  index: nyaasi
-  name: The Dreaming Boy is a Realist
-  schedule: 123
-  search: EMBER+Yumemiru+Danshi+wa+Genjitsushugisha+
-83:
-  episodes: 24
-  index: nyaasi
-  name: My Tiny Senpai
-  schedule: 71
-  search: EMBER+Uchi+no+Kaisha+no+Chiisai+
 84:
   episodes: 24
   index: nyaasi
