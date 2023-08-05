@@ -173,13 +173,6 @@
   schedule: 67
   search: ASW+hataraku+maou
   uniq_regex: S2\ -\ \d\d
-99:
-  episodes: 12
-  index: nyaasi
-  name: Rorouni Kenshin
-  schedule: 67
-  search: ASW+rurouni
-  uniq_regex: \d\d
 104:
   episodes: 16
   index: tgx
