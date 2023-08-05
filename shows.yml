@@ -1,3 +1,10 @@
+4:
+  episodes: 24
+  index: nyaasi
+  name: Liar Liar
+  schedule: 123
+  search: SubsPlease+Liar+Liar+1080p
+  uniq_regex: \-\ \d\d
 3:
   episodes: 24
   index: nyaasi
