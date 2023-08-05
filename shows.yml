@@ -1,3 +1,9 @@
+80:
+  episodes: 24
+  index: nyaasi
+  name: My Happy Marriage
+  schedule: 45
+  search: EMBER+Watashi+no+Shiawase+na+Kekkon
 78:
   episodes: 12
   index: nyaasi
@@ -40,12 +46,6 @@
   schedule: 0
   search: Judas+Bleach+1080p
   uniq_regex: \d\d\d-\d\d\d
-80:
-  episodes: 24
-  index: nyaasi
-  name: My Happy Marriage
-  schedule: 45
-  search: EMBER+Watashi+no+Shiawase
 81:
   episodes: 24
   index: nyaasi
