@@ -1,3 +1,10 @@
+78:
+  episodes: 12
+  index: nyaasi
+  name: Horimiya Piece
+  schedule: 67
+  search: SubsPlease+Horimiya+Piece+1080p
+  uniq_regex: \d\d
 1:
   episodes: 12
   index: nyaasi
@@ -33,13 +40,6 @@
   schedule: 0
   search: Judas+Bleach+1080p
   uniq_regex: \d\d\d-\d\d\d
-78:
-  episodes: 12
-  index: nyaasi
-  name: Horimiya Piece
-  schedule: 67
-  search: ASW+horimiya+Piece+1080p
-  uniq_regex: \d\d
 80:
   episodes: 24
   index: nyaasi
