@@ -1,3 +1,24 @@
+1:
+  episodes: 12
+  index: nyaasi
+  name: Zom 100
+  schedule: 12
+  search: SubsPlease+Zom+100+1080p
+  uniq_regex: \-\ \d\d
+77:
+  episodes: 12
+  index: nyaasi
+  name: Mushoku Tensei S02
+  schedule: 71
+  search: ASW+Mushoku+Tensei+1080p
+  uniq_regex: S2\ -\ \d\d
+90:
+  episodes: 12
+  index: nyaasi
+  name: Jujutsu Kaisen S02
+  schedule: 56
+  search: EMBER+jujutsu+kaisen+1080p
+  uniq_regex: S02E\d\d
 24:
   episodes: 2048
   index: nyaasi
@@ -12,13 +33,6 @@
   schedule: 0
   search: Judas+Bleach+1080p
   uniq_regex: \d\d\d-\d\d\d
-77:
-  episodes: 12
-  index: nyaasi
-  name: Mushoku Tensei S02
-  schedule: 71
-  search: ASW+Mushoku+Tensei+1080p
-  uniq_regex: S2\ -\ \d\d
 78:
   episodes: 12
   index: nyaasi
@@ -95,13 +109,6 @@
   name: The Wonder Years S02
   schedule: 45
   search: the+wonder+years+S02+ELiTE&sort=name&order=desc
-90:
-  episodes: 12
-  index: nyaasi
-  name: Jujutsu Kaisen S02
-  schedule: 56
-  search: EMBER+jujutsu+kaisen+1080p
-  uniq_regex: S02E\d\d
 91:
   episodes: 12
   index: nyaasi
