@@ -1,3 +1,24 @@
+84:
+  episodes: 24
+  index: nyaasi
+  name: Lv1 Demon Lord
+  schedule: 12
+  search: ASW+Lv1+Maou+to+One+Room
+  uniq_regex: -\s\d\d
+85:
+  episodes: 24
+  index: nyaasi
+  name: Ayaka
+  schedule: 71
+  search: ASW+Ayaka+1080p
+  uniq_regex: Ayaka\s-\s\d\d
+87:
+  episodes: 24
+  index: nyaasi
+  name: BanG Dream
+  schedule: 67
+  search: ASW+BanG+Dream
+  uniq_regex: BanG Dream! It's MyGO!!!!!\s-\s\d\d
 13:
   episodes: 12
   index: nyaasi
@@ -140,27 +161,6 @@
   schedule: 0
   search: Judas+Bleach+1080p
   uniq_regex: \d\d\d-\d\d\d
-84:
-  episodes: 24
-  index: nyaasi
-  name: Lv1 Demon Lord
-  schedule: 12
-  search: ASW+Lv1+Maou+to+One+Room
-  uniq_regex: -\s\d\d
-85:
-  episodes: 24
-  index: nyaasi
-  name: Ayaka
-  schedule: 71
-  search: ASW+Ayaka+1080p
-  uniq_regex: Ayaka\s-\s\d\d
-87:
-  episodes: 24
-  index: nyaasi
-  name: BanG Dream
-  schedule: 67
-  search: ASW+BanG+Dream
-  uniq_regex: BanG Dream! It's MyGO!!!!!\s-\s\d\d
 88:
   episodes: 16
   index: tgx
