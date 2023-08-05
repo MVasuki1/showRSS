@@ -12,98 +12,6 @@
   schedule: 0
   search: Judas+Bleach+1080p
   uniq_regex: \d\d\d-\d\d\d
-45:
-  episodes: 10
-  index: tgx
-  name: Platonic
-  schedule: 34
-  search: Platonic+S01+1080p+ELiTE&lang=0&nox=2&sort=name&order=desc
-52:
-  episodes: 13
-  index: tgx
-  name: Nancy Drew S04
-  schedule: 34
-  search: Nancy+Drew+S04+1080p+MeGusta&sort=name&order=desc
-53:
-  episodes: 10
-  index: tgx
-  name: Cruel Summer S02
-  schedule: 12
-  search: Cruel+Summer+S02+1080p+MeGusta&sort=name&order=desc
-54:
-  episodes: 8
-  index: tgx
-  name: IASIPS16
-  schedule: 45
-  search: It%27s+Always+Sunny+in+Philadelphia+S16+1080p+MeGusta&sort=name&order=desc
-57:
-  episodes: 8
-  index: tgx
-  name: TheCrowdedRoomS01
-  schedule: 56
-  search: The+Crowded+Room+S01+1080p+ELiTE&sort=name&order=desc
-58:
-  episodes: 8
-  index: tgx
-  name: BestInterestsS01
-  schedule: 56
-  search: Best+Interests+S01+1080p+MeGusta&sort=name&order=desc
-59:
-  episodes: 24
-  index: tgx
-  name: OutlanderS07
-  schedule: 56
-  search: Outlander+S07+1080p+MeGusta&sort=name&order=desc
-61:
-  episodes: -1
-  first_page: https://njav.tv/en/actresses/455e27fa94e1d716?page=1&sort=release_date
-  index: njav
-  name: actress_meguri
-  page_limit: 8
-  schedule: 0
-62:
-  episodes: 12
-  index: tgx
-  name: CrowdedRoom1080p
-  schedule: 56
-  search: crowded+room+1080p+264&sort=name&order=desc
-63:
-  episodes: -1
-  first_page: https://njav.tv/en/series/h4?sort=release_date
-  index: njav
-  name: series_h4
-  page_limit: 12
-  schedule: 0
-64:
-  episodes: 12
-  index: tgx
-  name: HijackS01
-  schedule: 34
-  search: Hijack+S01+1080p+MeGusta&sort=name&order=desc
-65:
-  episodes: 12
-  index: tgx
-  name: HijackS01_H264
-  schedule: 34
-  search: Hijack+S01+1080p+H264&sort=name&order=desc
-66:
-  episodes: 10
-  index: tgx
-  name: Platonic_H264
-  schedule: 34
-  search: Platonic+S01+1080p+H264+tgx&lang=0&nox=2&sort=name&order=desc
-68:
-  episodes: 8
-  index: tgx
-  name: IASIPS16H264
-  schedule: 45
-  search: It%27s+Always+Sunny+in+Philadelphia+S16+1080p+264&sort=name&order=desc
-69:
-  episodes: 13
-  index: tgx
-  name: Nancy Drew S04 H264
-  schedule: 34
-  search: Nancy+Drew+S04+1080p+264&sort=name&order=desc
 77:
   episodes: 12
   index: nyaasi
@@ -118,12 +26,6 @@
   schedule: 67
   search: ASW+horimiya+Piece+1080p
   uniq_regex: \d\d
-79:
-  episodes: 16
-  index: tgx
-  name: Righteous Gemstones S03
-  schedule: 34
-  search: The+Righteous+Gemstones+S03+1080p+MeGusta&sort=name&order=desc
 80:
   episodes: 24
   index: nyaasi
@@ -214,36 +116,6 @@
   schedule: 71
   search: EMBER+the+gene+of+AI
   uniq_regex: S01E\d\d
-93:
-  episodes: 16
-  index: tgx
-  name: Domina S02
-  schedule: 71
-  search: Domina+S02+1080p&sort=name&order=desc
-94:
-  episodes: 18
-  index: tgx
-  name: Secret Invasion
-  schedule: 1
-  search: secret+invasion+S01+elite&sort=name&order=desc
-95:
-  episodes: 18
-  index: tgx
-  name: Secret Invasion H264
-  schedule: 1
-  search: secret+invasion+S01+1080p+H264&sort=name&order=desc
-96:
-  episodes: 12
-  index: tgx
-  name: Full Circle 2023 H264
-  schedule: 1
-  search: full+circle+S01+1080p+H264&sort=name&order=desc
-97:
-  episodes: 12
-  index: tgx
-  name: Full Circle 2023 HEVC
-  schedule: 1
-  search: full+circle+S01+1080p+elite&sort=name&order=desc
 98:
   episodes: 12
   index: nyaasi
@@ -258,30 +130,6 @@
   schedule: 67
   search: ASW+rurouni
   uniq_regex: \d\d
-100:
-  episodes: 12
-  index: tgx
-  name: Nineteen to Twenty
-  schedule: 23
-  search: nineteen+to+twenty+1080p&sort=name&order=desc
-101:
-  episodes: 12
-  index: tgx
-  name: Summer I pretty S02
-  schedule: 56
-  search: summer+i+turned+pretty+S02+1080p+megusta&sort=name&order=desc
-102:
-  episodes: 12
-  index: tgx
-  name: Foundation HEVC
-  schedule: 56
-  search: Foundation+S02+1080p+megusta&sort=name&order=desc
-103:
-  episodes: 12
-  index: tgx
-  name: Foundation H264
-  schedule: 56
-  search: Foundation+S02+1080p+h264&sort=name&order=desc
 104:
   episodes: 16
   index: tgx
