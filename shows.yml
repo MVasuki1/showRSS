@@ -1,9 +1,15 @@
+6:
+  episodes: 24
+  index: nyaasi
+  name: Bungo Stray Dogs
+  schedule: 123
+  search: EMBER+Bungo+Stray+Dogs
 5:
   episodes: 24
   index: nyaasi
-  name: Reign of the Seven
+  name: reign of the seven
   schedule: 123
-  search: EMBER+Reign+of+the+seven
+  search: ember+reign+of+the+seven
 4:
   episodes: 24
   index: nyaasi
