@@ -1,3 +1,17 @@
+12:
+  episodes: 12
+  index: nyaasi
+  name: Undead Murder Farce
+  schedule: 67
+  search: SubsPlease+Undead+Murder+Farce+1080p
+  uniq_regex: \-\ \d\d
+98:
+  episodes: 12
+  index: nyaasi
+  name: Devil Part Timer S02
+  schedule: 67
+  search: ASW+hataraku+maou
+  uniq_regex: S2\ -\ \d\d
 11:
   episodes: 24
   index: nyaasi
@@ -166,13 +180,6 @@
   schedule: 71
   search: EMBER+the+gene+of+AI
   uniq_regex: S01E\d\d
-98:
-  episodes: 12
-  index: nyaasi
-  name: Devil Part Timer
-  schedule: 67
-  search: ASW+hataraku+maou
-  uniq_regex: S2\ -\ \d\d
 104:
   episodes: 16
   index: tgx
