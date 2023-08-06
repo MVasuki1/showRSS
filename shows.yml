@@ -1,3 +1,16 @@
+23:
+  episodes: 12
+  index: nyaasi
+  name: My Unique Skill
+  schedule: 71
+  search: EMBER+My+Unique+Skill
+22:
+  episodes: 12
+  index: nyaasi
+  name: Helck
+  schedule: 71
+  uniq_regex: \-\ \d\d
+  search: SubsPlease+Helck+1080p
 21:
   episodes: 12
   index: nyaasi
