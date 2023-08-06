@@ -1,3 +1,10 @@
+91:
+  episodes: 12
+  index: nyaasi
+  name: Tenpuru
+  schedule: 71
+  search: EMBER+tenpuru
+  uniq_regex: S01E\d\d
 19:
   episodes: 12
   index: nyaasi
@@ -210,13 +217,6 @@
   name: The Wonder Years S02
   schedule: 45
   search: the+wonder+years+S02+ELiTE&sort=name&order=desc
-91:
-  episodes: 12
-  index: nyaasi
-  name: Tenpuru
-  schedule: 71
-  search: EMBER+tenpuru
-  uniq_regex: S01E\d\d
 104:
   episodes: 16
   index: tgx
