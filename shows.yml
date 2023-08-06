@@ -1,3 +1,10 @@
+21:
+  episodes: 12
+  index: nyaasi
+  name: Dark Gathering
+  schedule: 71
+  uniq_regex: \-\ \d\d
+  search: SubsPlease+Dark+Gathering+1080p
 20:
   episodes: 12
   index: nyaasi
