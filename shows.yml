@@ -1,3 +1,10 @@
+25:
+  episodes: 12
+  index: nyaasi
+  name: Atelier Ryza
+  schedule: 71
+  uniq_regex: \-\ \d\d
+  search: SubsPlease+Atelier+Ryza+1080p
 23:
   episodes: 12
   index: nyaasi
