@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import time
 import subprocess
 import requests
 import re
@@ -154,7 +155,8 @@ def njav_parser(*args, **kwargs):
 def tgx_parser(search, uniq_regex=None, *args, **kwargs):
     for i in range(0,3):
         BASE_URL="https://tgx.sb/torrents.php?search="
-        r = tgx_session.get(f"{BASE_URL}{search}", cookies=tgx_cookies, headers=tgx_headers)
+        #r = tgx_session.get(f"{BASE_URL}{search}", cookies=tgx_cookies, headers=tgx_headers)
+        r = requests.get(f"{BASE_URL}{search}", cookies=tgx_cookies, headers=tgx_headers)
         r_content = r.content.decode('ISO-8859-1')
         logging.info(len(r_content))
         if len(r_content) != 0:
@@ -266,3 +268,4 @@ if __name__ == '__main__':
                 f.write(json.dumps(episodes_conf))
             with open(f'./rss/{show_id}.rss', 'w') as f:
                 f.write(gen_xml_from_list(episodes_conf, show_conf['name']))
+        time.sleep(5)

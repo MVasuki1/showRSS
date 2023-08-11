@@ -1,3 +1,10 @@
+114:
+  episodes: 12
+  index: nyaasi
+  name: Masterful Cat
+  schedule: 71
+  search: ASW+Dekiru+Neko
+  uniq_regex: \d\d
 25:
   episodes: 12
   index: nyaasi
@@ -261,7 +268,8 @@
   index: tgx
   name: Durians Affair
   schedule: 71
-  search: Durians+Affair+1080p
+  search: Durians+Affair+1080p&lang=0&nox=2#results
+
 107:
   episodes: 16
   index: tgx
@@ -274,43 +282,36 @@
   name: The Uncanny Counter S02
   schedule: 671
   search: The+Uncanny+Counter+S02+1080p+thon&lang=0&nox=2#results
-109:
-  episodes: 16
-  index: tgx
-  name: Miraculous Brothers
-  schedule: 345
-  search: Miraculous+Brothers+1080p+thon
-110:
-  episodes: 16
-  index: tgx
-  name: Heartbeat
-  schedule: 345
-  search: Heartbeat+1080p+thon
-111:
-  episodes: 16
-  index: tgx
-  name: Longing for You
-  schedule: 345
-  search: Longing+For+You+S01+1080p+thon
 113:
   episodes: 16
   index: tgx
   name: The First Responders S02
   schedule: 567
-  search: The+First+Responders+S02+thon
-114:
-  episodes: 12
-  index: nyaasi
-  name: Masterful Cat
-  schedule: 71
-  search: ASW+Dekiru+Neko
-  uniq_regex: \d\d
+  search: The+First+Responders+S02+thon&lang=0&nox=2#results
 115:
   episodes: 16
   index: tgx
   name: My Dearest S01
   schedule: 567
-  search: My+Dearest+S01+1080p
+  search: My+Dearest+S01+1080p&lang=0&nox=2#results
+110:
+  episodes: 16
+  index: tgx
+  name: Heartbeat
+  schedule: 345
+  search: Heartbeat+1080p+thon&lang=0&nox=2#results
+109:
+  episodes: 16
+  index: tgx
+  name: Miraculous Brothers
+  schedule: 345
+  search: Miraculous+Brothers+1080p&lang=0&nox=2#results
+111:
+  episodes: 16
+  index: tgx
+  name: Longing for You
+  schedule: 345
+  search: Longing+For+You+S01+1080p&lang=0&nox=2#results
 201:
   episodes: 16
   index: tgx
