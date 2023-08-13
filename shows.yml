@@ -282,30 +282,18 @@
   name: The Uncanny Counter S02
   schedule: 671
   search: The+Uncanny+Counter+S02+1080p+thon&lang=0&nox=2#results
-113:
-  episodes: 16
-  index: tgx
-  name: The First Responders S02
-  schedule: 567
-  search: The+First+Responders+S02+thon&lang=0&nox=2#results
-115:
-  episodes: 16
-  index: tgx
-  name: My Dearest S01
-  schedule: 567
-  search: My+Dearest+S01+1080p&lang=0&nox=2#results
-110:
-  episodes: 16
-  index: tgx
-  name: Heartbeat
-  schedule: 345
-  search: Heartbeat+1080p+thon&lang=0&nox=2#results
 109:
   episodes: 16
   index: tgx
   name: Miraculous Brothers
   schedule: 345
   search: Miraculous+Brothers+1080p&lang=0&nox=2#results
+110:
+  episodes: 16
+  index: tgx
+  name: Heartbeat
+  schedule: 345
+  search: Heartbeat+1080p+thon&lang=0&nox=2#results
 111:
   episodes: 16
   index: tgx
@@ -324,7 +312,19 @@
   name: Cold Blooded Intern
   schedule: 671
   search: Cold+Blooded+Intern+S01+1080p&lang=0&nox=2#results
-114:
+115:
+  episodes: 16
+  index: tgx
+  name: My Dearest S01
+  schedule: 567
+  search: My+Dearest+S01+1080p&lang=0&nox=2#results
+116:
+  episodes: 16
+  index: tgx
+  name: The First Responders S02
+  schedule: 567
+  search: The+First+Responders+S02+thon&lang=0&nox=2#results
+117:
   episodes: 16
   index: tgx
   name: The Killing Vote
