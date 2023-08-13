@@ -318,6 +318,19 @@
   name: Behind Your Touch
   schedule: 671
   search: Behind+Your+Touch+S01+1080p&lang=0&nox=2#results
+113:
+  episodes: 16
+  index: tgx
+  name: Cold Blooded Intern
+  schedule: 671
+  search: Cold+Blooded+Intern+S01+1080p&lang=0&nox=2#results
+114:
+  episodes: 16
+  index: tgx
+  name: The Killing Vote
+  schedule: 671
+  search: The+Killing+Vote+S01+1080p#results
+  uniq_regex: S01
 202:
   episodes: 16
   index: tgx
