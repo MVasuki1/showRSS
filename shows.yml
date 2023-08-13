@@ -269,7 +269,6 @@
   name: Durians Affair
   schedule: 71
   search: Durians+Affair+1080p&lang=0&nox=2#results
-
 107:
   episodes: 16
   index: tgx
@@ -309,9 +308,9 @@
 113:
   episodes: 16
   index: tgx
-  name: Cold Blooded Intern
-  schedule: 671
-  search: Cold+Blooded+Intern+S01+1080p&lang=0&nox=2#results
+  name: The First Responders S02
+  schedule: 567
+  search: The+First+Responders+S02+thon&lang=0&nox=2#results
 115:
   episodes: 16
   index: tgx
@@ -321,9 +320,9 @@
 116:
   episodes: 16
   index: tgx
-  name: The First Responders S02
-  schedule: 567
-  search: The+First+Responders+S02+thon&lang=0&nox=2#results
+  name: Cold Blooded Intern
+  schedule: 671
+  search: Cold+Blooded+Intern+S01+1080p&lang=0&nox=2#results
 117:
   episodes: 16
   index: tgx
@@ -331,6 +330,12 @@
   schedule: 671
   search: The+Killing+Vote+S01+1080p#results
   uniq_regex: S01
+118:
+  episodes: 16
+  index: tgx
+  name: Moving
+  schedule: 671
+  search: Moving+S01+1080p+thon#results
 202:
   episodes: 16
   index: tgx

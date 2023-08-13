@@ -161,6 +161,11 @@ def tgx_parser(search, uniq_regex=None, *args, **kwargs):
         logging.info(len(r_content))
         if len(r_content) != 0:
             break
+    if len(r_content) == 0 and kwargs.get("retry_count", 0) < 3:
+        time.sleep(60)
+        tgx_parser(search=search, uniq_regex=uniq_regex, retry_count = kwargs.get("retry_count", 0) + 1)
+        return
+
     handle = StringIO(r_content)
     root = lxml.html.parse(handle)
    
@@ -230,9 +235,9 @@ if __name__ == '__main__':
 
         # Only scrape for shows that are airing today/yesterday
         # if parser is running for all episodes len > 3
-        if len(show_id_list) > 3:
-            if today not in str(show_conf['schedule']):
-                continue
+        #if len(show_id_list) > 3:
+        #    if today not in str(show_conf['schedule']):
+        #        continue
 
         logging.info(f'Fetching results for {show_conf["name"]} schedule {show_conf["schedule"]}')
 
