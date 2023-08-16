@@ -354,3 +354,9 @@
   name: Strange Planet
   search: strange+planet+1080p+h264&lang=0&nox=2&sort=name&order=desc
   schedule: 24
+207:
+  episodes: 18
+  index: tgx
+  name: Emergency 2022
+  search: Emergency+2022+S02+1080p+h264&lang=0&nox=2#results
+  schedule: 24
