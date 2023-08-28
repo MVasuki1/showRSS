@@ -245,12 +245,6 @@
   schedule: 0
   search: Judas+Bleach+1080p
   uniq_regex: \d\d\d-\d\d\d
-88:
-  episodes: 16
-  index: tgx
-  name: Warrior S03
-  schedule: 45
-  search: Warrior+S03+1080p+MeGusta&sort=name&order=desc
 89:
   episodes: 18
   index: tgx
@@ -275,12 +269,6 @@
   name: The Uncanny Counter S02
   schedule: 671
   search: The+Uncanny+Counter+S02+1080p+thon&lang=0&nox=2#results
-109:
-  episodes: 16
-  index: tgx
-  name: Miraculous Brothers
-  schedule: 345
-  search: Miraculous+Brothers+1080p#results
 110:
   episodes: 16
   index: tgx
