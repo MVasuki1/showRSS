@@ -19,7 +19,7 @@ for i in range(1,100):
     parsed_datetime = datetime.strptime(pub_date, date_format)
     print(i, " " ,(today - parsed_datetime).days)
     if (today - parsed_datetime).days < 7:
-        shows.append(f'https://showrss.info/show/{i}')
+        shows.append(f'https://showrss.info/browse/{i}')
 
 for show in shows:
     print(show)
