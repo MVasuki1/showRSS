@@ -386,3 +386,15 @@
   name: Harlan Cobens Shelter 1080p
   search: harlan+cobens+shelter+1080p+h264&amp;sort=name&amp;order=desc
   schedule: 24
+213:
+  episodes: 18
+  index: tgx
+  name: The Changeling S01 720p
+  search: the+changeling+s01+720p+h264&lang=0&nox=2#results
+  schedule: 24
+214:
+  episodes: 18
+  index: tgx
+  name: The Changeling S01 1080p
+  search: the+changeling+s01+1080p+h264&lang=0&nox=2#results
+  schedule: 24
