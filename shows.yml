@@ -398,10 +398,3 @@
   name: The Changeling S01 1080p
   search: the+changeling+s01+1080p+h264&lang=0&nox=2#results
   schedule: 24
-215:
-  episodes: 18
-  index: tgx
-  name: the Blacklist 1080p EDGE2020
-  search: the+blacklist+1080p+EDGE2020
-  schedule: 0
-  uniq_regex: S\d\d
