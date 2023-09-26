@@ -26,12 +26,6 @@
   schedule: 71
   uniq_regex: \-\ \d\d
   search: SubsPlease+Atelier+Ryza+1080p
-23:
-  episodes: 12
-  index: nyaasi
-  name: My Unique Skill
-  schedule: 71
-  search: EMBER+My+Unique+Skill
 22:
   episodes: 12
   index: nyaasi
@@ -39,26 +33,12 @@
   schedule: 71
   uniq_regex: \-\ \d\d
   search: SubsPlease+Helck+1080p
-21:
-  episodes: 12
-  index: nyaasi
-  name: Dark Gathering
-  schedule: 71
-  uniq_regex: \-\ \d\d
-  search: SubsPlease+Dark+Gathering+1080p
 20:
   episodes: 12
   index: nyaasi
   name: Classroom for Heroes
   schedule: 71
   search: EMBER+Classroom+for+heroes
-91:
-  episodes: 12
-  index: nyaasi
-  name: Tenpuru
-  schedule: 71
-  search: EMBER+tenpuru
-  uniq_regex: S01E\d\d
 19:
   episodes: 12
   index: nyaasi
@@ -259,18 +239,6 @@
   schedule: 0
   search: Judas+Bleach+1080p
   uniq_regex: \d\d\d-\d\d\d
-89:
-  episodes: 18
-  index: tgx
-  name: The Wonder Years S02
-  schedule: 45
-  search: the+wonder+years+S02+ELiTE&sort=name&order=desc
-205:
-  episodes: 18
-  index: tgx
-  name: The Lost flowers of Alice
-  search: the+lost+flowers+of+alice+hart+s01+H.264
-  schedule: 24
 206:
   episodes: 18
   index: tgx
