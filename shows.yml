@@ -63,13 +63,6 @@
   name: Synduality Noir
   schedule: 12
   search: EMBER+SYNDUALITY
-84:
-  episodes: 24
-  index: nyaasi
-  name: Lv1 Demon Lord
-  schedule: 12
-  search: ASW+Lv1+Maou+to+One+Room
-  uniq_regex: -\s\d\d
 12:
   episodes: 12
   index: nyaasi
@@ -90,12 +83,6 @@
   name: My Tiny Senpai
   schedule: 71
   search: EMBER+Uchi+no+Kaisha+no+Chiisai+
-10:
-  episodes: 24
-  index: nyaasi
-  name: The Dreaming Boy is a Realist
-  schedule: 123
-  search: EMBER+Yumemiru+Danshi+wa+Genjitsushugisha+
 9:
   episodes: 24
   index: nyaasi
