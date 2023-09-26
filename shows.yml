@@ -63,20 +63,6 @@
   name: Synduality Noir
   schedule: 12
   search: EMBER+SYNDUALITY
-12:
-  episodes: 12
-  index: nyaasi
-  name: Undead Murder Farce
-  schedule: 67
-  search: SubsPlease+Undead+Murder+Farce+1080p
-  uniq_regex: \-\ \d\d
-98:
-  episodes: 12
-  index: nyaasi
-  name: Devil Part Timer S02
-  schedule: 67
-  search: ASW+hataraku+maou
-  uniq_regex: S2\ -\ \d\d
 11:
   episodes: 24
   index: nyaasi
