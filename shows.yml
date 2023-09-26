@@ -50,12 +50,6 @@
   schedule: 71
   search: EMBER+the+gene+of+AI
   uniq_regex: S01E\d\d
-15:
-  episodes: 24
-  index: nyaasi
-  name: Synduality Noir
-  schedule: 12
-  search: EMBER+SYNDUALITY
 11:
   episodes: 24
   index: nyaasi
