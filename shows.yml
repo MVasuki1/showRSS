@@ -138,12 +138,6 @@
   name: Rent a Girlfriend S02
   schedule: 123
   search: Rent+a+Girlfriend+S02
-81:
-  episodes: 24
-  index: nyaasi
-  name: Masamune Kun No revenge
-  schedule: 123
-  search: Judas+Masamune-kun+S02
 82:
   episodes: 24
   index: nyaasi
@@ -156,13 +150,6 @@
   name: My Happy Marriage
   schedule: 45
   search: EMBER+Watashi+no+Shiawase+na+Kekkon
-78:
-  episodes: 12
-  index: nyaasi
-  name: Horimiya Piece
-  schedule: 67
-  search: SubsPlease+Horimiya+Piece+1080p
-  uniq_regex: \d\d
 1:
   episodes: 12
   index: nyaasi
