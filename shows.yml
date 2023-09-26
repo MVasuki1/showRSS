@@ -5,13 +5,6 @@
   schedule: 71
   search: subsplease+cardfight+vanguard+S3+1080p
   uniq_regex: \d\d
-26:
-  episodes: 24
-  index: nyaasi
-  name: shadowverse flame
-  schedule: 71
-  search: erai+shadowverse+flame+seven+1080p
-  uniq_regex: \d\d
 22:
   episodes: 12
   index: nyaasi
