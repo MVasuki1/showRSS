@@ -156,3 +156,15 @@
   name: Krapopolis 720p
   search: krapopolis+s01+720p+h264#results
   schedule: 12
+219:
+  episodes: 18
+  index: tgx
+  name: Still Up 1080p
+  search: still+up+s01+1080p+h264#results
+  schedule: 12
+220:
+  episodes: 18
+  index: tgx
+  name: Still Up 720p
+  search: still+up+s01+720p+h264#results
+  schedule: 12
