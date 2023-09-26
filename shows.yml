@@ -84,13 +84,6 @@
   schedule: 71
   search: ASW+Ayaka+1080p
   uniq_regex: Ayaka\s-\s\d\d
-87:
-  episodes: 24
-  index: nyaasi
-  name: BanG Dream
-  schedule: 67
-  search: ASW+BanG+Dream
-  uniq_regex: BanG Dream! It's MyGO!!!!!\s-\s\d\d
 12:
   episodes: 12
   index: nyaasi
@@ -147,13 +140,6 @@
   name: reign of the seven
   schedule: 123
   search: ember+reign+of+the+seven
-4:
-  episodes: 24
-  index: nyaasi
-  name: Liar Liar
-  schedule: 123
-  search: SubsPlease+Liar+Liar+1080p
-  uniq_regex: \-\ \d\d
 3:
   episodes: 24
   index: nyaasi
