@@ -12,6 +12,13 @@
   schedule: 71
   uniq_regex: \-\ \d\d
   search: SubsPlease+Helck+1080p
+20:
+  episodes: 13
+  index: nyaasi
+  name: Yohane The
+  schedule: 71
+  uniq_regex: \-\ \d\d
+  search: asw+yohane+the
 19:
   episodes: 12
   index: nyaasi
