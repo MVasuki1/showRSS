@@ -70,13 +70,6 @@
   schedule: 12
   search: ASW+Lv1+Maou+to+One+Room
   uniq_regex: -\s\d\d
-85:
-  episodes: 24
-  index: nyaasi
-  name: Ayaka
-  schedule: 71
-  search: ASW+Ayaka+1080p
-  uniq_regex: Ayaka\s-\s\d\d
 12:
   episodes: 12
   index: nyaasi
