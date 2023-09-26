@@ -33,12 +33,6 @@
   schedule: 71
   uniq_regex: \-\ \d\d
   search: SubsPlease+Helck+1080p
-20:
-  episodes: 12
-  index: nyaasi
-  name: Classroom for Heroes
-  schedule: 71
-  search: EMBER+Classroom+for+heroes
 19:
   episodes: 12
   index: nyaasi
@@ -97,13 +91,6 @@
   schedule: 67
   search: ASW+BanG+Dream
   uniq_regex: BanG Dream! It's MyGO!!!!!\s-\s\d\d
-13:
-  episodes: 12
-  index: nyaasi
-  name: The Duke and his Maid S02
-  schedule: 67
-  search: EMBER+The+Duke+of+Death+S02
-  uniq_regex: S02E\d\d
 12:
   episodes: 12
   index: nyaasi
