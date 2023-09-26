@@ -19,13 +19,6 @@
   schedule: 71
   search: asw+dekiru+neko
   uniq_regex: \d\d
-25:
-  episodes: 12
-  index: nyaasi
-  name: Atelier Ryza
-  schedule: 71
-  uniq_regex: \-\ \d\d
-  search: SubsPlease+Atelier+Ryza+1080p
 22:
   episodes: 12
   index: nyaasi
@@ -184,13 +177,6 @@
   schedule: 12
   search: SubsPlease+Zom+100+1080p
   uniq_regex: \-\ \d\d
-77:
-  episodes: 12
-  index: nyaasi
-  name: Mushoku Tensei S02
-  schedule: 71
-  search: ASW+Mushoku+Tensei+1080p
-  uniq_regex: S2\ -\ \d\d
 90:
   episodes: 12
   index: nyaasi
