@@ -168,3 +168,21 @@
   name: Still Up 720p
   search: still+up+s01+720p+ATVP
   schedule: 12
+221:
+  episodes: 18
+  index: tgx
+  name: Sky Med S02 720p
+  search: skymed+S02+x264+720p+TGX
+  schedule: 12
+222:
+  episodes: 18
+  index: tgx
+  name: Sky Med S02 1080p
+  search: skymed+S02+x264+1080p+TGX
+  schedule: 12
+223:
+  episodes: 18
+  index: tgx
+  name: Children Ruin Everyting S03
+  search: children+ruin+everything+S03+1080p
+  schedule: 12
